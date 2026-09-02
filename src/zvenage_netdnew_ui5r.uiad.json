@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "VENDOR AGE NET DUE NEW",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Supplier Ageing - NetDue Date"
+  },
+  "ui5AppDetails": {
+    "appId": "venagenetnew"
+  },
+  "navigation": {
+    "targetMappingId": "ZVENAGE_NETDNEW_UI5R_TM",
+    "semanticObject": "ZVEND_AGE_NETDUE_NEW",
+    "action": "DISPLAY",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZVENAGE_NETDNEW_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Supplier Ageing - NetDue Date"
+      }
+    }
+  ]
+}

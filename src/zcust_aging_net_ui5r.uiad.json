@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Customer aging netdue",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Customer Aging"
+  },
+  "ui5AppDetails": {
+    "appId": "custagingnet"
+  },
+  "navigation": {
+    "targetMappingId": "ZCUST_AGING_NET_UI5R_TM",
+    "semanticObject": "ZCUST_AGEING_NETDUE_N",
+    "action": "DISPLAY",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZCUST_AGING_NET_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Customer Aging"
+      }
+    }
+  ]
+}

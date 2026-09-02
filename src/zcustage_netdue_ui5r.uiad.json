@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "CUST AGEING NET DUE DATE",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Customer Ageing - NetDue Date"
+  },
+  "ui5AppDetails": {
+    "appId": "custagenetdate"
+  },
+  "navigation": {
+    "targetMappingId": "ZCUSTAGE_NETDUE_UI5R_TM",
+    "semanticObject": "ZCUSTAGE_NETDUE",
+    "action": "DISPLAY",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "ZCUSTAGE_NETDUE_UI5R_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Customer Ageing - NetDue Date"
+      }
+    }
+  ]
+}
